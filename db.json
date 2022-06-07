@@ -2,7 +2,7 @@
   {
     "id": 1,
     "carName": "Subaru Impreza S4 WRX",
-    "img": "img/car-img/subimpr.png",
+    "img": "src/img/car-img/subimpr.png",
     "setup": [
       {
         "country": "Argentina",
@@ -893,7 +893,7 @@
   {
     "id": 2,
     "carName": "Ford Focus RS WRC 01",
-    "img": "img/car-img/ffocus.png",
+    "img": "src/img/car-img/ffocus.png",
     "setup": [
       {
         "country": "Argentina",
@@ -1120,7 +1120,7 @@
   {
     "id": 3,
     "carName": "Mitsubishi Lancer VII",
-    "img": "img/car-img/mitslancer.png",
+    "img": "src/img/car-img/mitslancer.png",
     "setup": [
       {
         "country": "Wales",
@@ -1209,7 +1209,7 @@
   {
     "id": 4,
     "carName": "Mini Cooper S",
-    "img": "img/car-img/mcooper.png",
+    "img": "src/img/car-img/mcooper.png",
     "setup": [
       {
         "country": "Wales",
