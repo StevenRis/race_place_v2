@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./src/css/styles-test.css" />
+    <link rel="stylesheet" href="./src/css/mobile_styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +17,9 @@
     <title>Race Place - setups for Dirt Rally 2.0</title>
   </head>
   <body>
+    <video class="myvideo" autoplay muted loop>
+      <source src="./src/img/video-bg.mp4" type="video/mp4" />
+    </video>
     <div class="enter-screen hide">
       <div class="enter-screen__title">
         <h1>Press Start</h1>
@@ -23,7 +27,30 @@
     </div>
     <!-- <div class="main-bg"></div> -->
     <div class="main main-bg">
+      <!-- MAIN NAVIGATION -->
+      <header>
+        <div class="header">
+          <div class="logo">
+            <a href="/"
+              ><img src="./src/img/main-logo.png" alt="Dirt Rally 2.0"
+            /></a>
+          </div>
+          <div class="navigation">
+            <nav class="main-nav">
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Car list</a></li>
+                <li><a href="/">About the project</a></li>
+                <li><a href="/">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- CAR'S CARDS -->
       <div class="wrapper"></div>
+
+      <!-- SETUPS -->
       <div class="setups-container"></div>
     </div>
 

@@ -1,0 +1,52 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .main-bg {
+    height: auto;
+    background: none;
+    background-color: #022930;
+  }
+
+  .car-card {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .car-card__countries {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .car-card__image img {
+    width: 300px;
+  }
+
+  .car-card__title {
+    width: 300px;
+    height: auto;
+    padding: 10px 0;
+    visibility: visible;
+  }
+
+  .setup-country {
+    margin: 1rem;
+  }
+
+  .country {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .setup__item {
+    flex-direction: column;
+  }
+
+  .shadow {
+    opacity: 0.5;
+  }
+
+  .setups-container {
+    width: 90vw;
+    height: auto;
+    margin-top: 10px;
+  }
+}

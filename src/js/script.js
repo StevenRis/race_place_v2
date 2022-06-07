@@ -168,7 +168,7 @@ window.addEventListener('DOMContentLoaded', () => {
       // console.log(target);
       if (target.tagName == 'IMG') {
         carCards.forEach((item, i) => {
-          console.log(carCards);
+          // console.log(carCards);
           if (target.parentElement.parentNode == item) {
             // console.log(item);
             closeCarCard();
